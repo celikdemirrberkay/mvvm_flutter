@@ -5,7 +5,7 @@ enum UrlEnum {
   endPoint,
 }
 
-extension UrlEnumMixin on UrlEnum {
+extension UrlEnumExt on UrlEnum {
   String get value {
     switch (this) {
       case UrlEnum.baseUrl:
